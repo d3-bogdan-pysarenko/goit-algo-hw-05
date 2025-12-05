@@ -1,4 +1,4 @@
-def binary_search_upper_bound(arr, target):
+def binary_search_upper_limit(arr, target):
     left, right = 0, len(arr) - 1
     iterations = 0
     upper_bound = None
@@ -18,7 +18,7 @@ def binary_search_upper_bound(arr, target):
 
 # checking time
 sorted_array = [1.2, 1.3, 1.9, 2.5, 3.7, 3.7, 5.0, 8.4, 9.6]
-print(binary_search_upper_bound(sorted_array, 3.7))
-print(binary_search_upper_bound(sorted_array, 9.9))
-print(binary_search_upper_bound(sorted_array, 1.1))
-print(binary_search_upper_bound(sorted_array, 1.21))
+print(binary_search_upper_limit(sorted_array, 3.7))
+print(binary_search_upper_limit(sorted_array, 9.9))
+print(binary_search_upper_limit(sorted_array, 1.1))
+print(binary_search_upper_limit(sorted_array, 1.21))
