@@ -17,8 +17,8 @@ def binary_search_upper_bound(arr, target):
 
 
 # checking time
-array = [1.2, 1.3, 1.9, 2.5, 3.7, 3.7, 5.0, 8.4, 9.6]
-print(binary_search_upper_bound(array, 3.7))
-print(binary_search_upper_bound(array, 9.9))
-print(binary_search_upper_bound(array, 1.1))
-print(binary_search_upper_bound(array, 1.21))
+sorted_array = [1.2, 1.3, 1.9, 2.5, 3.7, 3.7, 5.0, 8.4, 9.6]
+print(binary_search_upper_bound(sorted_array, 3.7))
+print(binary_search_upper_bound(sorted_array, 9.9))
+print(binary_search_upper_bound(sorted_array, 1.1))
+print(binary_search_upper_bound(sorted_array, 1.21))
