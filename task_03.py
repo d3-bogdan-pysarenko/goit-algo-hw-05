@@ -120,10 +120,10 @@ def measure(text, pattern):
 
 # Checking time
 # ----------------------------------------------------------------------------------------
-print("=== Article 1 measurement time ===")
+print("=== Articles measurement time for EXISTING substring ===")
 measure(text1, real_substring)
-measure(text1, fake_substring)
-
-print("\n=== Article 2 measurement time ===")
 measure(text2, real_substring)
+
+print("\n=== Articles measurement time for NON-existing substring ===")
+measure(text1, fake_substring)
 measure(text2, fake_substring)
